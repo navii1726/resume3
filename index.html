@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1571e09826.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Certification</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenue()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenue()"></i>
+            </nav>
+            <div class="header-text">
+                
+            </div>
+        </div>
+    </div>
+    <!------------about--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/Whats.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>"My name is Navneet kumar, and I'm a recent computer science under graduate student of CSJM University kanpur (Up India)." 
+                        After my intermidate session some intrest begain in IT sector (something like coding / developing / programing).So that is going to be my first preference to choice BCA course as my graduation.
+                        The area of intrest (Web-development / Android-development / Cyber security). And ambition to become a "software developer".  
+                        When I come CSJM I realised how much I had to learn. A traditional education had 
+                        given me specialised knowledge but hadn't set up with skill needed to succed 
+                        in an environment of constant cahange.
+                        so I set out on a journey to answer the Question"what knowledge and
+                        skills do i need to thrive in the 21st century?"</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                             </div>
+                             <div class="tab-contents active-tab" id="Skills">
+                                <ul>
+                                    <li><span>Web Development</span><br>web app development</li>
+                                    <li><span>App Development</span><br>Building Android / iOS Apps</li>
+                                    <li><span>Coding</span><br>C / C++ /PYTHON / ANGULAR / JS / CSS</li>
+                                </ul>
+                             </div>
+                             <div class="tab-contents" id="Education">
+                                <ul>
+                                    <li><span>2020</span><br>Completing High-schooling from Kendriya Vidhyalaya No.2 Armapur Kanpur</li>
+                                    <li><span>2022</span><br>Completing Intermidiate session from Kendriya Vidhyalaya No.2 Armapur Kanpur</li>
+                                    <li><span>2022</span><br>Attendant of CSJMU (UIET) Kanpur  Persuing BCA Course and Session year is (2022-25)</li>
+                                </ul>
+                        </div>
+                </div>
+                
+            </div>
+    </div>
+</div>
+<!---------certification-->
+    <div id="Services">
+    <div class="container">
+        <h1 class="sub-title">Certification</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>I have completed the (Complete Web-Dev Course) 
+                    from Udemy and get certificate.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>HTML , Java-script & Bootstrap</h2>
+                <p>I have completed that course from udemy and get certificate.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-github"></i>
+                <h2>Github</h2>
+                <p>I have completed that course from udemy and get the complete knowledge of GIT or GitHub</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Machine Learning using PYTHON</h2>
+                <p>I have completed the Bootcamp of Devtown. And Get the certificate of "MICROSOFT" (collaboration ambassador)  </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>SQL</h2>
+                <p>I have completed the Masterclass of SQL from Udemy and get the certificate.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-c"></i>
+                <h2>C / C++</h2>
+                <p>I have completed the course from Udemy and get complete knowledge of (Basics of C language) and (OOP's)</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-square-js"></i>
+                <h2>JavaScript</h2>
+                <p>I have completed the course from Udemy. Where I learn about JS and get the certificate.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-image"></i>
+                <h2>Adobe Photoshop Ultimate Guide</h2>
+                <p>I have completed the Course from Udemy and Learn the photo editing of (basic to advance level)</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>    
+<!-------portfolio---------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>  
+            <div class="work-list">
+               <div class="work">
+                <img src="img/work-1.png">
+                <div class="layer">
+                    <h3>College website Project</h3>
+                   
+                    
+                    
+                </div>   
+               </div> 
+               <div class="work">
+                <img src="img/work-2.png">
+                <div class="layer">
+                    <h3>mobile App</h3>
+                    <P>A sample Android App Development Project / Make spotify clone.</P>
+                    
+                </div>
+               </div> 
+               <div class="work">
+                <img src="img/work-3.png">
+                <div class="layer">
+                    <h3>Online Ecommerce website</h3>
+                    <P>I made sample project of Ecommerce website</P>
+                    
+                </div>
+               </div> 
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!---------contact------------->
+    <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-message"></i>Email.navneetyadav0321@gmail.com</p>
+                <div class="social-icons">
+                    <p>Click the link to vist the profile</p>
+                    <a href="https://www.instagram.com/navii__26/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://https://www.linkedin.com/in/navneet-kumar-1411492b7/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/navii1726"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                   
+        </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+          </div> 
+        </div>
+        <div class="copyright">
+            <p>Copyright © Navneet / Made BY <i class="fa-solid fa-heart"></i> Navneet kumar</p>
+        </div>
+    </div>
+    
+    
+    <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<!---------responsive---->
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenue(){
+    sidemenu.style.right = "0"
+    }
+    function closemenue(){
+    sidemenu.style.right = "-200px"
+    }
+    
+  
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzqh7LvMD26tlDXTSlc9bZLN_z3jBgxn9q1kz6vEUo-tCT2aJ6B8QNwqSBYSjbex-pP/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
